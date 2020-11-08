@@ -9,19 +9,28 @@ void sea();
 void forest();
 void dungeon();
 
+void Travel(int i);
+int myLocation;
 
 int main()
 {
 	
 	cout << "Hey traveler, let's take you to a trip!" << endl;
 	cout << "You are in a spaceship. Let's go somewhere. What do you say?" << endl;
-	spaceship();
 
+	spaceship();
+	system ("PAUSE")
 }
 
 void spaceship()
 {
-	cout<< "You are in a spaceship now." << endl;
+	cout << "You are in a spaceship now." << endl;
+	cout << "Where would you like to go?"
+		cin >> myLocation;
+
+	Travel (myLocation)
+
+		
 }
 
 void sky()
