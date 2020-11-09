@@ -28,18 +28,22 @@ int main()
 
 	int i = 0;
 	while (i < TOTAL)
+	{
 
 		if (numbers[i] % 2 == 0)
 		{
 			std::cout << "The number" << numbers[i] << "is even" << std::endl;
 		}
-		
+
 		else
 		{
 			std::cout << "The number" << numbers[i] << "is odd" << std::endl;
 		}
 
-	i++;
+		i++;
+
+	}
+
 
 
 	std::cout << "===========================================================================================" << std::endl;
